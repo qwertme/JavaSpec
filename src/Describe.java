@@ -1,7 +1,6 @@
-public abstract class Describe {
+public abstract class Describe extends Operation {
   public Describe(final String description) {
-    System.out.println(description);
-    run();
+    super(description);
   }
 
   public abstract void run();

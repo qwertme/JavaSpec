@@ -1,8 +1,5 @@
-public abstract class It {
+public abstract class It extends Operation {
   public It(final String description) {
-    System.out.println(description);
-    run();
+    super(description);
   }
-
-  public abstract void run();
 }
